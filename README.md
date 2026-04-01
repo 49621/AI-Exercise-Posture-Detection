@@ -16,13 +16,20 @@ Easy local setup
 
 📁 Project Structure
 ai-exercise-app/
-├── main.py                      # FastAPI backend
+├── main.py   # FastAPI backend
+
 ├── requirements.txt             # Python dependencies
+
 ├── ai_engine/
+
 │   ├── __init__.py
+
 │   └── pose_analyzer.py         # Pose detection logic
+
 ├── static/
+
 │   └── index.html               # Frontend webcam client
+
 └── uploads/ (optional)
 
 🛠️ Requirements
