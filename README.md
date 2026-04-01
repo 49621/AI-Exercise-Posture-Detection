@@ -13,6 +13,7 @@ WebSocket-based fast frame streaming
 Body landmark detection with MediaPipe
 Lightweight FastAPI backend
 Easy local setup
+
 📁 Project Structure
 ai-exercise-app/
 ├── main.py                      # FastAPI backend
@@ -23,6 +24,7 @@ ai-exercise-app/
 ├── static/
 │   └── index.html               # Frontend webcam client
 └── uploads/ (optional)
+
 🛠️ Requirements
 Python 3.10 or 3.11
 ❗ Do NOT use Python 3.13 (MediaPipe not supported)
