@@ -48,6 +48,7 @@ Windows:
 
 py -3.10 -m venv ai_posture_env
 .\ai_posture_env\Scripts\activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
@@ -60,12 +61,14 @@ opencv-python
 websockets
 aiofiles
 python-multipart
+
 4️⃣ Run Backend Server
 uvicorn main:app --reload
 
 Open in browser:
 
 http://127.0.0.1:8000
+
 5️⃣ Start Webcam Client
 http://localhost:8000/static/index.html
 
